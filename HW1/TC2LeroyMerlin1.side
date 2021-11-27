@@ -1,0 +1,295 @@
+{
+  "id": "e663b766-61f8-49e7-810d-f365b497a4b4",
+  "version": "2.0",
+  "name": "TC2(LeroyMerlin1)",
+  "url": "https://leroymerlin.ru",
+  "tests": [{
+    "id": "6f869876-0239-4d79-a2a1-b6c2ecd5fc22",
+    "name": "Personal Data",
+    "commands": [{
+      "id": "6d80c855-0daa-4625-a687-91ffcd5eb984",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8a95bbc-a8e8-43d9-a84e-00073e008d9a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "968x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd655342-d5b3-4c8b-b3a9-95c1436eb9bb",
+      "comment": "не могу подобрать Хпасс для клика по меню \"Три полосочки\"",
+      "command": "//click",
+      "target": "//*[contains(@class,'sidebar-button')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c21f5b3-682d-4848-ae17-65d42971788b",
+      "comment": "не могу подобрать Хпасс для клика по пункту \"Войти\"",
+      "command": "//click",
+      "target": "css=.form-input:nth-child(1) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e4ee22e-ee4c-429f-b0f5-34c548a6015e",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='username']",
+      "targets": [
+        ["id=username", "id"],
+        ["name=j_username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "promtossv@yandex.ru"
+    }, {
+      "id": "32f9fd96-6c5a-4b30-8cc4-65d5416150ac",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='password']",
+      "targets": [
+        ["id=password", "id"],
+        ["name=j_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Cthutq62!"
+    }, {
+      "id": "c3f5b881-8ae5-4387-8b09-1e77d7ef5b8d",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='login']",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45ceb619-7cc9-4cea-90da-1a18d18d07d0",
+      "comment": "",
+      "command": "click",
+      "target": "//span[text()='Личные данные']",
+      "targets": [
+        ["css=.lk-main-menu__col:nth-child(5) .lk-main-menu__title", "css:finder"],
+        ["xpath=//div[5]/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "498ef541-da79-4e4c-8bde-9b60363f63b9",
+      "comment": "",
+      "command": "click",
+      "target": "//span[contains(text(),'Изменить персональные данные')]",
+      "targets": [
+        ["css=.personal-info__menu-item:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Изменить персональные данные')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac03ad30-ccd4-4c15-bbf0-564ddf0f15f3",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='user-name']",
+      "targets": [
+        ["id=user-name", "id"],
+        ["name=user-name", "name"],
+        ["css=#user-name", "css:finder"],
+        ["xpath=//input[@id='user-name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Anton"
+    }, {
+      "id": "615cf3e7-8b3d-4245-a558-c128335526b3",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='user-phone']",
+      "targets": [],
+      "value": "9000000000"
+    }, {
+      "id": "d33585b9-b2c8-4012-802c-aa647de667bd",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='user-phone-home']",
+      "targets": [],
+      "value": "4912111111"
+    }, {
+      "id": "5e360620-6ad9-4767-ae5c-cb1d9c07c4a8",
+      "comment": "",
+      "command": "click",
+      "target": "//label[@class='custom-checkbox-label']",
+      "targets": [
+        ["css=.custom-checkbox-label", "css:finder"],
+        ["xpath=//div/div[2]/div[2]/div/div/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "896bc007-5cf2-480e-8534-527614155833",
+      "comment": "",
+      "command": "click",
+      "target": "//button[contains(text(),'Сохранить изменения')]",
+      "targets": [
+        ["css=.green-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f5eca48c-1a8b-49c0-9f9f-d2edfbbdb82f",
+    "name": "Basket",
+    "commands": [{
+      "id": "c50d9273-1673-41a6-a243-46037af69873",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a14ca14e-0872-4f0c-8c68-ac376c40f150",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed557566-00eb-411f-8672-909e84760439",
+      "comment": "не могу подобрать Хпасс для клика по меню \"три полосочки\"",
+      "command": "//click",
+      "target": "css=uc-header",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e56ac75-65e5-4555-b643-125d6993f7d5",
+      "comment": "не могу подобрать Хпасс для клика по пункту \"Войти\"",
+      "command": "//click",
+      "target": "css=.form-input:nth-child(1) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2afc8111-66ef-4d86-9a9e-eda501423c1c",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='username']",
+      "targets": [
+        ["id=username", "id"],
+        ["name=j_username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "promtossv@yandex.ru"
+    }, {
+      "id": "705c3bb1-92be-41fb-b576-cb23d11ebbd8",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='password']",
+      "targets": [
+        ["id=password", "id"],
+        ["name=j_password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Cthutq62!"
+    }, {
+      "id": "deaf5520-91aa-4b2b-a86d-03cec5b26023",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='login']",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2d2387e-0e4c-4c65-89c6-5eb45b934048",
+      "comment": "",
+      "command": "click",
+      "target": "//span[@slot='regions']",
+      "targets": [
+        ["css=uc-header", "css:finder"],
+        ["xpath=//uc-header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82b92323-3947-4f42-8741-d1b84936f469",
+      "comment": "Не могу подобрать Хпрасс для выбора города Рязани из списка",
+      "command": "//click",
+      "target": "//a[@data-region-code='ryazan']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e16c8a67-9540-4d27-b41c-788c365f5d5f",
+      "comment": "не могу подобрать Хпасс для клика по логотипу \"Леруа Мерлен\"",
+      "command": "//click",
+      "target": "css=.focus",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc293d8b-5d37-4ae5-816c-afa8a084feca",
+      "comment": "Не удается подобрать Хпасс для ввода поискового запроса",
+      "command": "//type",
+      "target": "//input[text()='Поиск']",
+      "targets": [],
+      "value": "82388297"
+    }, {
+      "id": "c3d71bae-d904-4af0-b551-28c10d946cd8",
+      "comment": "Не удается подобрать Хпасс для клика по иконке поиска",
+      "command": "//click",
+      "target": "//",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f40898e2-0ad9-4425-b003-2dc11754e44a",
+      "comment": "",
+      "command": "click",
+      "target": "//span[text()='В корзину']",
+      "targets": [
+        ["css=.brutyy4_plp svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "45219fa4-3049-4243-bb55-3c23d91bfde3",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@href='/basket/']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff82878f-188c-4394-a4c9-dd9ada75daa1",
+      "comment": "Не удается подобрать Хпасс для очистки корзины",
+      "command": "//click",
+      "target": "//span[contains(text(),'Очистить')]",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8fe8020-02e2-4491-9723-cd6d93fdd6c0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6f869876-0239-4d79-a2a1-b6c2ecd5fc22"]
+  }],
+  "urls": ["https://leroymerlin.ru/"],
+  "plugins": []
+}

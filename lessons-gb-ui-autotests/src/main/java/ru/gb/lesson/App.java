@@ -30,5 +30,6 @@ public class App extends SpringBootServletInitializer
                 "   (  <\\_-) )'-.____...\\  `._   //-'\n" +
                 "    `. `-' /-._)))      `-._)))\n" +
                 "      `...'         ");
+        System.out.println();
     }
 }
